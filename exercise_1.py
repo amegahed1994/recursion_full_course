@@ -4,7 +4,9 @@ Given a positive integer n, create a recursive function that returns the sum of 
 """
 
 # My solution
-def sum_of_digits(n):
+def sum_of_digits(
+    n,
+):
     if n < 10:
         return n
 
@@ -13,7 +15,9 @@ def sum_of_digits(n):
 
 
 # Answer key
-def _sum_of_digits(n):
+def _sum_of_digits(
+    n,
+):
     if n < 10:
         return n
 
