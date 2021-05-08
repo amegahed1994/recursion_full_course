@@ -10,3 +10,5 @@ def sum_of_digits(n):
     n_str = str(n)
     return int(n_str[0]) + sum_of_digits(int(n_str[1:]))
 
+if __name__ == "__main__":
+    print(sum_of_digits("123"))
