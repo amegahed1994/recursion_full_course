@@ -11,12 +11,13 @@ def sum_of_digits(n):
     n_str = str(n)
     return int(n_str[0]) + sum_of_digits(int(n_str[1:]))
 
+
 # Answer key
 def _sum_of_digits(n):
     if n < 10:
         return n
 
-    return n%10 + sum_of_digits(n//10)
+    return n % 10 + sum_of_digits(n // 10)
 
 
 if __name__ == "__main__":

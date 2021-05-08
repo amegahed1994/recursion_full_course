@@ -4,7 +4,7 @@ Give an array 'arr' and integer 'num', create a recursive function that returns 
 num of occurences of 'num' in 'arr'
 """
 
-
+# My solution
 def num_of_occurences(num, arr):
     if not arr:
         return 0
@@ -14,6 +14,15 @@ def num_of_occurences(num, arr):
 
     else:
         return num_of_occurences(num, arr[1:])
+
+# Answer key
+def _num_of_occurences(num, arr, index=0):
+    if index == len(arr):
+        return 0
+    elif arr[i] == num:
+        return 1 + _num_of_occurences(num, arr, index+1)
+    else:
+        return _num_of_occurences(num, arr, index+1)
 
 
 if __name__ == "__main__":
