@@ -15,14 +15,15 @@ def num_of_occurences(num, arr):
     else:
         return num_of_occurences(num, arr[1:])
 
+
 # Answer key
 def _num_of_occurences(num, arr, index=0):
     if index == len(arr):
         return 0
-    elif arr[i] == num:
-        return 1 + _num_of_occurences(num, arr, index+1)
+    elif arr[index] == num:
+        return 1 + _num_of_occurences(num, arr, index + 1)
     else:
-        return _num_of_occurences(num, arr, index+1)
+        return _num_of_occurences(num, arr, index + 1)
 
 
 if __name__ == "__main__":
@@ -30,3 +31,4 @@ if __name__ == "__main__":
     arr = [3, 1, 2, 3, 3]
 
     print(num_of_occurences(num, arr))
+    print(_num_of_occurences(num, arr))
