@@ -1,7 +1,7 @@
 """
 Exercise 2:
 Give an array 'arr' and integer 'num', create a recursive function that returns the
-num of occurences 'num' in 'arr'
+num of occurences of 'num' in 'arr'
 """
 
 
