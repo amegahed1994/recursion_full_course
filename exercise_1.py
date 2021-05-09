@@ -1,12 +1,12 @@
-"""
-Exercise 1:
-Given a positive integer n, create a recursive function that returns the sum of its digits.
+"""Exercise 1:
+
+Given a positive integer n, create a recursive function that returns the
+sum of its digits.
 """
 
+
 # My solution
-def sum_of_digits(
-    n,
-):
+def sum_of_digits(n, ):
     if n < 10:
         return n
 
@@ -15,9 +15,7 @@ def sum_of_digits(
 
 
 # Answer key
-def _sum_of_digits(
-    n,
-):
+def _sum_of_digits(n, ):
     if n < 10:
         return n
 

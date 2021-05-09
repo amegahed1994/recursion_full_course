@@ -1,6 +1,8 @@
-"""
-Exercise 2:
-Given a string 'str', create a recursive boolean function that checks if 'str' has adjacent duplicates, in other words, if there is a character that appears two or more times in a row in the string
+"""Exercise 2:
+
+Given a string 'str', create a recursive boolean function that checks if
+'str' has adjacent duplicates, in other words, if there is a character
+that appears two or more times in a row in the string.
 """
 
 

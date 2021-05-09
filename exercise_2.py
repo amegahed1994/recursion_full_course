@@ -1,7 +1,9 @@
+"""Exercise 2:
+
+Give an array 'arr' and integer 'num', create a recursive function that
+returns the num of occurences of 'num' in 'arr'.
 """
-Exercise 2:
-Give an array 'arr' and integer 'num', create a recursive function that returns the num of occurences of 'num' in 'arr'.
-"""
+
 
 # My solution
 def num_of_occurences(num, arr):
