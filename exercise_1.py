@@ -6,7 +6,7 @@ sum of its digits.
 
 
 # My solution
-def sum_of_digits(n, ):
+def sum_of_digits(n):
     if n < 10:
         return n
 
@@ -15,7 +15,7 @@ def sum_of_digits(n, ):
 
 
 # Answer key
-def _sum_of_digits(n, ):
+def _sum_of_digits(n):
     if n < 10:
         return n
 
@@ -23,4 +23,4 @@ def _sum_of_digits(n, ):
 
 
 if __name__ == "__main__":
-    print(sum_of_digits("123"))
+    assert sum_of_digits(123) == 6

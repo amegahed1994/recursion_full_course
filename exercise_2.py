@@ -31,5 +31,5 @@ if __name__ == "__main__":
     num = 3
     arr = [3, 1, 2, 3, 3]
 
-    print(num_of_occurences(num, arr))
-    print(_num_of_occurences(num, arr))
+    assert num_of_occurences(num, arr) == 3
+    assert _num_of_occurences(num, arr) == 3
